@@ -41,7 +41,7 @@
 ### 命令行手动运行
 
 ```bash
-cd ~/.claude/skills/mp4-to-mp3-extractor/scripts
+cd ~/.claude/skills/claw-cli-mp4-to-mp3/scripts
 python3 extract.py "/path/to/source" "/path/to/destination"
 ```
 

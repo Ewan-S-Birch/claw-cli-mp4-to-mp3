@@ -2,7 +2,7 @@
 # -*- coding: utf-8, -*-
 
 """
-Skill Name: MP4-To-MP3-Extractor
+Skill Name: claw-cli-mp4-to-mp3
 Author: 王岷瑞/https://github.com/wangminrui2022
 License: Apache License
 Description: 智能的 Python 包安装工具函数，支持多种安装方式（普通包、指定版本、git 仓库、本地 zip 包等），并具备完善的已安装检测和失败回退机制
@@ -21,7 +21,7 @@ import sys
 import os
 import importlib.metadata
 from logger_manager import LoggerManager
-logger = LoggerManager.setup_logger(logger_name="MP4-To-MP3-Extractor")
+logger = LoggerManager.setup_logger(logger_name="claw-cli-mp4-to-mp3")
 
 def fix_setuptools_for_legacy_packages():
     """专门为老项目（使用 pkg_resources 的 setup.py）修复 setuptools 版本"""

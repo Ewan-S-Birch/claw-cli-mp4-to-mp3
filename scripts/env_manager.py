@@ -2,7 +2,7 @@
 # -*- coding: utf-8, -*-
 
 """
-Skill Name: MP4-To-MP3-Extractor
+Skill Name: claw-cli-mp4-to-mp3
 Author: 王岷瑞/https://github.com/wangminrui2022
 License: Apache License
 Description: 这段代码是一个 Python 脚本的环境初始化与自动化配置模块。
@@ -37,7 +37,7 @@ print(f"模型保存路径: {model_path}")
 
 # --- 日志系统初始化 ---
 # 将配置好的 LOG_DIR 传给 LoggerManager
-logger = LoggerManager.setup_logger(logger_name="mp4-to-mp3-extractor")
+logger = LoggerManager.setup_logger(logger_name="claw-cli-mp4-to-mp3")
 
 def check_python_version():
     """严格检测 Python 版本，只支持 3.10 ~ 3.12"""

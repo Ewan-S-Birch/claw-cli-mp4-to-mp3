@@ -2,7 +2,7 @@
 # -*- coding: utf-8, -*-
 
 """
-Skill Name: MP4-To-MP3-Extractor
+Skill Name: claw-cli-mp4-to-mp3
 Author: 王岷瑞/https://github.com/wangminrui2022
 License: Apache License
 Description: 这段代码是一个典型的 Python 项目路径管理模块。

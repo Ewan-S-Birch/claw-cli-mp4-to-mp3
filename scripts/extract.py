@@ -2,7 +2,7 @@
 # -*- coding: utf-8, -*-
 
 """
-Skill Name: MP4-To-MP3-Extractor
+Skill Name: claw-cli-mp4-to-mp3
 Author: 王岷瑞/https://github.com/wangminrui2022
 License: Apache License
 Description: 这段代码是一个基于 Python 的自动化视频转音频（MP4 转 MP3）提取工具。
@@ -32,7 +32,7 @@ import ffmpeg_downloader as ffdl
 import importlib
 
 # --- 日志系统初始化 ---
-logger = LoggerManager.setup_logger(logger_name="mp4-to-mp3-extractor")
+logger = LoggerManager.setup_logger(logger_name="claw-cli-mp4-to-mp3")
 
 def ensure_ffmpeg():
     """自动检测 + 下载 ffmpeg（已彻底修复 --quiet 错误 + 更稳定）"""
